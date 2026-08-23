@@ -1,7 +1,7 @@
 import java.util.Scanner;  //Importing Package
 class GenderSort  //Declaring Class
 {
-    public void disp()  //Declaring Method
+    public static void main(String[] args)  //Declaring Method
     {
         Scanner sc=new Scanner(System.in);
         System.out.println("Enter the Number of Students");  //Taking Input the number of students

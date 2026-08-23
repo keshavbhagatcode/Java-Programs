@@ -1,7 +1,7 @@
 import java.util.*;  //Importing Package
 class LaptopAndPCDiscount  //Declaring Class
 {
-    public void display()  //Declaring Method
+    public static void main(String[] args)  //Declaring Method
     {
         Scanner sc=new Scanner(System.in);
         System.out.println("Enter Name");  //Inputting Name

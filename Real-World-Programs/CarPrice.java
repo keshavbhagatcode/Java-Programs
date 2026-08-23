@@ -1,3 +1,5 @@
+import java.util.Scanner;
+
 class CarPrice  //Declaring Class
 {
     long price;  //Declaring Variables
@@ -24,10 +26,16 @@ class CarPrice  //Declaring Class
         System.out.println("Car Price="+price);  //Printing Output
         System.out.println("Excise="+exe);  //Printing Output
     }
-    public void main()  //Main method for calling all the methods
+    public static void main(String[] args) // Standard main method
     {
-        CarPrice ob=new CarPrice(20000,'N');
+        Scanner sc = new Scanner(System.in);
+        System.out.print("Enter Car Price: ");
+        long p = sc.nextLong(); // Read price input
+        System.out.print("Enter Car Type (N, S, or L): ");
+        char t = sc.next().toUpperCase().charAt(0); // Read character input
+        CarPrice ob = new CarPrice(p, t);
         ob.calex();
         ob.print();
-    }
+        sc.close();
 }  //Class Closed
+}

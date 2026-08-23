@@ -237,4 +237,9 @@ class Reservation
         System.out.println("Thank You");
         System.exit(0);
     }
+    public static void main(String[] args) throws Exception 
+    {
+        Reservation ob = new Reservation();
+        ob.doMenu();
+    }
 }
