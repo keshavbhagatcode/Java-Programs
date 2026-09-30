@@ -1,7 +1,7 @@
 //Program to print the name "RIHANNA" in a complex pattern using nested loops
 class rihana
 {
-    public void disp()
+    public void main()
     {
         int x=0,y=0,z=0,n=0,m=6,g=1,j=2;
         for(int a=1;a<=7;a++)
